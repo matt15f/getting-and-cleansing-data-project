@@ -2,7 +2,7 @@
 
 This readme describes the getting and cleansing course project R script, run_analysis.r.
 
-The first thing the script does is check to see if required packages are installed, if not it installs and loads them.  Then the package checks to see if a directory for storage has been created, if not it creates it, then the same is done for the dataset zip file.
+The first thing the script does is check to see if required packages are installed, if not it installs and loads them.  Then the script checks to see if the zip file exists in the working directory, if it does not the file is downloaded from the website.
 
 The file is unzipped into 3 paths.  The 6 files are loaded into data frames, then the corresponding frames are combined, one frame for activites, one for subjects, one for features.
 Feature frame column names are read in from features.txt, the names of the others are assigned manually.  Activity ID and name information is read in from activity_labels.txt

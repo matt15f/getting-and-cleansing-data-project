@@ -15,15 +15,11 @@ if they have not then install them
 
 load packages to the library
 
-create a directory to host the files if it does not exist
-
 create a URL to download the zip
 
 check if the file exists download the zip file
 
 unzip the file
-
-create 3 variables holding path names
 
 read in each test and train file into a data frame
 
